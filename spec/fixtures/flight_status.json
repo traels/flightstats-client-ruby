@@ -1,0 +1,212 @@
+{
+    "appendix": {
+        "airlines": [
+            {
+                "active": true,
+                "fs": "AS",
+                "iata": "AS",
+                "icao": "ASA",
+                "name": "Alaska Airlines",
+                "phoneNumber": "1-800-252-7522"
+            },
+            {
+                "active": true,
+                "fs": "DL",
+                "iata": "DL",
+                "icao": "DAL",
+                "name": "Delta Air Lines",
+                "phoneNumber": "1-800-221-1212"
+            },
+            {
+                "active": true,
+                "fs": "AA",
+                "iata": "AA",
+                "icao": "AAL",
+                "name": "American Airlines",
+                "phoneNumber": "1-800-433-7300"
+            }
+        ],
+        "airports": [
+            {
+                "active": true,
+                "city": "Portland",
+                "cityCode": "PDX",
+                "classification": 1,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PDX?codeType=fs",
+                "elevationFeet": 30,
+                "faa": "PDX",
+                "fs": "PDX",
+                "iata": "PDX",
+                "icao": "KPDX",
+                "latitude": 45.588995,
+                "localTime": "2013-02-26T16:34:48.667",
+                "longitude": -122.592901,
+                "name": "Portland International Airport",
+                "postalCode": "97218",
+                "regionName": "North America",
+                "stateCode": "OR",
+                "street1": "7000 NE Airport Way",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PDX?codeType=fs",
+                "weatherZone": "ORZ006"
+            },
+            {
+                "active": true,
+                "city": "San Jose",
+                "cityCode": "SJC",
+                "classification": 2,
+                "countryCode": "US",
+                "countryName": "United States",
+                "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SJC?codeType=fs",
+                "elevationFeet": 58,
+                "faa": "SJC",
+                "fs": "SJC",
+                "iata": "SJC",
+                "icao": "KSJC",
+                "latitude": 37.366736,
+                "localTime": "2013-02-26T16:34:48.667",
+                "longitude": -121.926375,
+                "name": "Norman Y. Mineta San Jose International Airport",
+                "postalCode": "95110",
+                "regionName": "North America",
+                "stateCode": "CA",
+                "street1": "1701 Airport Boulevard, Suite B-1130",
+                "timeZoneRegionName": "America/Los_Angeles",
+                "utcOffsetHours": -8.0,
+                "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SJC?codeType=fs",
+                "weatherZone": "CAZ513"
+            }
+        ],
+        "equipments": [
+            {
+                "iata": "73G",
+                "jet": true,
+                "name": "Boeing 737-700 Passenger",
+                "regional": false,
+                "turboProp": false,
+                "widebody": false
+            },
+            {
+                "iata": "B737",
+                "jet": false,
+                "name": "??",
+                "regional": false,
+                "turboProp": false,
+                "widebody": false
+            }
+        ]
+    },
+    "flightStatus": {
+        "airportResources": {
+            "arrivalGate": "27",
+            "arrivalTerminal": "B",
+            "departureGate": "C1"
+        },
+        "arrivalAirportFsCode": "SJC",
+        "arrivalDate": {
+            "dateLocal": "2013-02-26T18:08:00.000",
+            "dateUtc": "2013-02-27T02:08:00.000Z"
+        },
+        "carrierFsCode": "AS",
+        "codeshares": [
+            {
+                "flightNumber": "7077",
+                "fsCode": "AA",
+                "relationship": "L"
+            },
+            {
+                "flightNumber": "9025",
+                "fsCode": "DL",
+                "relationship": "L"
+            }
+        ],
+        "departureAirportFsCode": "PDX",
+        "departureDate": {
+            "dateLocal": "2013-02-26T16:20:00.000",
+            "dateUtc": "2013-02-27T00:20:00.000Z"
+        },
+        "flightDurations": {
+            "scheduledAirMinutes": 84,
+            "scheduledBlockMinutes": 108,
+            "scheduledTaxiInMinutes": 17,
+            "scheduledTaxiOutMinutes": 7,
+            "taxiOutMinutes": 6
+        },
+        "flightEquipment": {
+            "actualEquipmentIataCode": "B737",
+            "scheduledEquipmentIataCode": "73G"
+        },
+        "flightId": 289606238,
+        "flightNumber": "402",
+        "operationalTimes": {
+            "actualGateDeparture": {
+                "dateLocal": "2013-02-26T16:15:00.000",
+                "dateUtc": "2013-02-27T00:15:00.000Z"
+            },
+            "actualRunwayDeparture": {
+                "dateLocal": "2013-02-26T16:21:00.000",
+                "dateUtc": "2013-02-27T00:21:00.000Z"
+            },
+            "estimatedGateArrival": {
+                "dateLocal": "2013-02-26T17:51:00.000",
+                "dateUtc": "2013-02-27T01:51:00.000Z"
+            },
+            "estimatedGateDeparture": {
+                "dateLocal": "2013-02-26T16:20:00.000",
+                "dateUtc": "2013-02-27T00:20:00.000Z"
+            },
+            "estimatedRunwayArrival": {
+                "dateLocal": "2013-02-26T17:45:00.000",
+                "dateUtc": "2013-02-27T01:45:00.000Z"
+            },
+            "estimatedRunwayDeparture": {
+                "dateLocal": "2013-02-26T16:21:00.000",
+                "dateUtc": "2013-02-27T00:21:00.000Z"
+            },
+            "flightPlanPlannedArrival": {
+                "dateLocal": "2013-02-26T17:51:00.000",
+                "dateUtc": "2013-02-27T01:51:00.000Z"
+            },
+            "flightPlanPlannedDeparture": {
+                "dateLocal": "2013-02-26T16:27:00.000",
+                "dateUtc": "2013-02-27T00:27:00.000Z"
+            },
+            "publishedArrival": {
+                "dateLocal": "2013-02-26T18:08:00.000",
+                "dateUtc": "2013-02-27T02:08:00.000Z"
+            },
+            "publishedDeparture": {
+                "dateLocal": "2013-02-26T16:20:00.000",
+                "dateUtc": "2013-02-27T00:20:00.000Z"
+            },
+            "scheduledGateArrival": {
+                "dateLocal": "2013-02-26T18:08:00.000",
+                "dateUtc": "2013-02-27T02:08:00.000Z"
+            },
+            "scheduledGateDeparture": {
+                "dateLocal": "2013-02-26T16:20:00.000",
+                "dateUtc": "2013-02-27T00:20:00.000Z"
+            }
+        },
+        "schedule": {
+            "flightType": "J",
+            "restrictions": "",
+            "serviceClasses": "FY"
+        },
+        "status": "A"
+    },
+    "request": {
+        "extendedOptions": {
+            "interpreted": "includeNewFields",
+            "requested": "includeNewFields"
+        },
+        "flightId": {
+            "interpreted": 289606238,
+            "requested": "289606238"
+        },
+        "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/flight/status/289606238"
+    }
+}
