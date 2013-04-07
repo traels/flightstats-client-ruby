@@ -8,7 +8,7 @@ Ruby client for the FlightStats Flex API.
 In your Gemfile:
 
 ```ruby
-gem "flightstats-flex", "~> 0.1.0"
+gem "flightstats-flex", "~> 0.2.0"
 ```
 
 or
