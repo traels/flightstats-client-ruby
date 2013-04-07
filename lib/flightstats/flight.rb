@@ -17,36 +17,36 @@ module FlightStats
                   :flight_legs
 
     class << self
-      def direct_arriving_at(arrival_code, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/to/#{arrival_code}/arriving/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_arriving_at(arrival_code, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/direct/to/#{arrival_code}/arriving/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_departing_from(departure_code, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/from/#{departure_code}/departing/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_departing_from(departure_code, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/direct/from/#{departure_code}/departing/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_arriving_by_flight_number(carrier, flight_number, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/arriving/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_arriving_by_flight_number(carrier, flight_number, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/arriving/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_arriving_by_flight_number_and_location(carrier, flight_number, arrival_code, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/to/#{arrival_code}/arriving/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_arriving_by_flight_number_and_location(carrier, flight_number, arrival_code, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/to/#{arrival_code}/arriving/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_departing_by_flight_number(carrier, flight_number, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/departing/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_departing_by_flight_number(carrier, flight_number, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/departing/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_departing_by_flight_number_and_location(carrier, flight_number, arrival_code, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_departing_by_flight_number_and_location(carrier, flight_number, arrival_code, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_and_connecting_arriving(departure_code, arrival_code, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/connecting/from/#{departure_code}/to/#{arrival_code}/arriving/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_and_connecting_arriving(departure_code, arrival_code, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/connecting/from/#{departure_code}/to/#{arrival_code}/arriving/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
-      def direct_and_connecting_departing(departure_code, arrival_code, year, month, day, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/connecting/from/#{departure_code}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", {}, options), 'flights'
+      def direct_and_connecting_departing(departure_code, arrival_code, year, month, day, params = {}, options = {})
+        from_response API.get("/flex/connections/rest/v1/json/connecting/from/#{departure_code}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options), 'flights'
       end
     end
 
