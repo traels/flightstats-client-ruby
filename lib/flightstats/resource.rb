@@ -3,6 +3,13 @@ require 'json'
 
 module FlightStats
   class Resource
+    # Performance optimizations
+    @@string_to_model_cache_lock = Mutex.new
+    @@string_to_model_cache = {}
+    class UnknownModel ; end
+    @@underscore_cache_lock = Mutex.new
+    @@underscore_cache = {}
+
     class << self
       # Instantiates a record from an HTTP response.
       #
@@ -43,18 +50,33 @@ module FlightStats
         end
       end
 
+      def string_to_model_with_caching(model_string)
+        @@string_to_model_cache_lock.synchronize do
+          model = @@string_to_model_cache[model_string]
+          return nil if model == UnknownModel
+          return model unless model.nil?
+
+          # See if it's a series of objects (e.g. schedules)
+          model = string_to_model(Helper.singularize(model_string))
+          model = string_to_model(model_string) if model.nil?
+
+          @@string_to_model_cache[model_string] = model.nil? ? UnknownModel : model
+          return model
+        end
+      end
+
       def from_parsed_json(json, model_string)
-        if json.is_a? Array
+        # Optimization - native type, nothing to build so bail early
+        if json.is_a? FalseClass or json.is_a? TrueClass or json.is_a? Fixnum or json.is_a? String
+          return json
+        elsif json.is_a? Array
           value = []
           json.each do |one_value|
             value << from_parsed_json(one_value, model_string)
           end
           value
         else
-          model = nil
-          # See if it's a series of objects (e.g. schedules)
-          model = string_to_model(Helper.singularize(model_string))
-          model = string_to_model(model_string) if model.nil?
+          model = string_to_model_with_caching(model_string)
 
           if !model.nil? and !json.is_a? Hash
             json
@@ -89,6 +111,18 @@ module FlightStats
       yield self if block_given?
     end
 
+    def underscore_with_caching(input_string)
+      @@underscore_cache_lock.synchronize do
+        underscored = @@underscore_cache[input_string]
+        return underscored unless underscored.nil?
+
+        underscored = Helper.underscore(input_string)
+
+        @@underscore_cache[input_string] = underscored
+        return underscored
+      end
+    end
+
     # Apply a given hash of attributes to an object.
     #
     # @return [Hash]
@@ -96,8 +130,9 @@ module FlightStats
     def attributes= attributes = {}
       return if attributes.nil?
       attributes.each_pair { |k, v|
+        # Parse the nested attributed to instantiate the right model, is applicable
         value = FlightStats::Resource.from_parsed_json(v, k)
-        respond_to?(name = "#{Helper.underscore k}=") and send(name, value)
+        send("#{underscore_with_caching(k)}=", value) rescue nil
       }
     end
 
