@@ -16,7 +16,8 @@ module FlightStats
                   :layover_duration_minutes,
                   :operator,
                   :carrier_fs_code,
-                  :wetlease_info
+                  :wetlease_info,
+                  :stop_codes
 
     def to_s
       "#{operator ? operator.carrier_fs_code : carrier_fs_code}#{flight_number}: #{departure_airport_fs_code} at #{departure_time} - #{arrival_airport_fs_code} at #{arrival_time} (+#{arrival_date_adjustment}) #{distance_miles} miles"
