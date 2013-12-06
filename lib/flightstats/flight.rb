@@ -38,7 +38,7 @@ module FlightStats
       end
 
       def direct_departing_by_flight_number_and_location(carrier, flight_number, arrival_code, year, month, day, params = {}, options = {})
-        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options), 'flights'
+        from_response API.get("/flex/connections/rest/v1/json/direct/flight/#{carrier}/#{flight_number}/from/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options), 'flights'
       end
 
       def direct_and_connecting_arriving(departure_code, arrival_code, year, month, day, params = {}, options = {})
