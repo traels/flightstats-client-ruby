@@ -5,7 +5,7 @@ module FlightStats
 
     class << self
       def by_route_departing_on(departure_code, arrival_code, year, month, day, params = {}, options = {})
-        from_response API.get("#{base_path}/from/#{departure_code}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options)
+        from_response API.get("#{@@base_path}/from/#{departure_code}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options)
       end
     end
   end
