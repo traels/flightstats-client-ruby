@@ -102,6 +102,7 @@ module FlightStats
   require 'flightstats/published_arrival'
   require 'flightstats/published_departure'
   require 'flightstats/schedule'
+  require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
 
