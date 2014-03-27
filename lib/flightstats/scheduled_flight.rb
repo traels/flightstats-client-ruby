@@ -25,6 +25,10 @@ module FlightStats
         from_response API.get("#{base_path}/from/#{departure_code}/to/#{arrival_code}/departing/#{year}/#{month}/#{day}", params, options), 'scheduledFlights'
       end
 
+      def by_carrier_and_flight_number_departing_on(carrier_fs_code, flight_number, year, month, day, params = {}, options = {})
+        from_response API.get("#{base_path}/flight/#{carrier_fs_code}/#{flight_number}/departing/#{year}/#{month}/#{day}", params, options), 'scheduledFlights'
+      end
+
       def base_path
         @@base_path
       end
