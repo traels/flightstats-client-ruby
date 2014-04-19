@@ -44,6 +44,17 @@ FlightStats.app_key = '5678'
 FlightStats.logger = Rails.logger
 ```
 
+### Extended options
+
+The last argument of each API call is an optional hash. The `:params` key of that hash is used to pass query parameters.
+
+For extended options, it looks like:
+
+```
+FlightStats::Airport.actives({ :params => { :extendedOptions => 'languageCode:fr' } })
+FlightStats::Airport.actives({ :params => { :extendedOptions => 'useHTTPErrors+languageCode:fr' } })
+```
+
 ## Supported APIs
 
 ### Airports
