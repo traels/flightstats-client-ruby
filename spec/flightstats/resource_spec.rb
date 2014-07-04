@@ -12,6 +12,7 @@ describe FlightStats::Resource do
     FlightStats::Resource.string_to_model("equipment").should == FlightStats::Equipment
     FlightStats::Resource.string_to_model("flightStatus").should == FlightStats::FlightStatus
     FlightStats::Resource.string_to_model("arrivalDate").should == FlightStats::ArrivalDate
+    FlightStats::Resource.string_to_model("metar").should == FlightStats::Metar
   end
 
   it "must deserialize a simple hash correctly" do

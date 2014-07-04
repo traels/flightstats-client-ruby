@@ -1,0 +1,305 @@
+{
+ "request": {
+  "url": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SFO",
+  "airport": {
+   "requestedCode": "SFO",
+   "fsCode": "SFO"
+  },
+  "codeType": {}
+ },
+ "metar": {
+  "report": "KSFO 040156Z 29010KT 10SM FEW009 18/12 A2990 RMK AO2 SLP125 T01830122",
+  "reportTime": "2014-07-04T01:56:00.000Z",
+  "weatherStationIcao": "KSFO",
+  "tags": [
+   {
+    "key": "Instrumentation",
+    "value": "VFR"
+   },
+   {
+    "key": "Prevailing Conditions",
+    "value": "Mostly Clear"
+   }
+  ],
+  "conditions": {
+   "wind": {
+    "direction": 290,
+    "directionIsVariable": false,
+    "speedKnots": "10.00"
+   },
+   "visibility": {
+    "miles": "10.00",
+    "lessThan": false,
+    "cavok": false
+   },
+   "weatherConditions": [],
+   "skyConditions": [
+    {
+     "coverage": "Few clouds",
+     "base": 900
+    }
+   ],
+   "pressureInchesHg": "29.90"
+  },
+  "temperatureCelsius": "18.30",
+  "dewPointCelsius": "12.20",
+  "runwayVisualRanges": [],
+  "obscurations": [],
+  "noSignificantChange": false
+ },
+ "taf": {
+  "report": "TAF\n      AMD KSFO 032102Z 0321/0424 28018KT P6SM FEW010 \n     FM040500 28010KT P6SM SCT012 \n     FM041200 28007KT P6SM BKN012 \n     FM041800 28010KT P6SM FEW010 \n     FM042100 28018KT P6SM FEW010",
+  "reportTime": "2014-07-03T21:09:00.000Z",
+  "observationTime": "2014-07-03T21:02:00.000Z",
+  "reportType": "Amendment",
+  "weatherStationIcao": "KSFO",
+  "forecasts": [
+   {
+    "type": "Base",
+    "start": "2014-07-03T21:00:00.000Z",
+    "end": "2014-07-04T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "18.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Few clouds",
+       "base": 1000
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-04T05:00:00.000Z",
+    "end": "2014-07-05T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "10.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Scattered clouds",
+       "base": 1200
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-04T12:00:00.000Z",
+    "end": "2014-07-05T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "7.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Broken clouds",
+       "base": 1200
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-04T18:00:00.000Z",
+    "end": "2014-07-05T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "10.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Few clouds",
+       "base": 1000
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-04T21:00:00.000Z",
+    "end": "2014-07-05T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "18.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Few clouds",
+       "base": 1000
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "zoneForecast": {
+  "header": "SAN FRANCISCO BAY SHORELINE-\n740 PM PDT THU JUL 3 2014",
+  "general": "Expires:201407041700;;353522\nFPUS56 KMTR 040240\nZFPMTR\nSAN FRANCISCO BAY AREA/CENTRAL CALIFORNIA ZONE FORECAST\nNATIONAL WEATHER SERVICE SAN FRANCISCO BAY AREA\n740 PM PDT THU JUL 3 2014\nTHIS IS AN AUTOMATICALLY GENERATED PRODUCT THAT PROVIDES AVERAGE\nVALUES FOR LARGE GEOGRAPHIC AREAS. FOR A MORE SITE-SPECIFIC\nFORECAST...PLEASE VISIT WEATHER.GOV/SANFRANCISCO \n(1) SELECT A LOCATION FROM THE DROP DOWN MENU ABOVE THE MAP...\n-- OR --\n(2) CLICK A LOCATION ON THE MAP.\nYOU CAN REFINE YOUR SELECTION BY CLICKING ON THE MAP DISPLAYED ON\nTHE RESULTING PAGE.\nSPOT TEMPERATURES AND PROBABILITIES OF MEASURABLE PRECIPITATION\nARE FOR REST OF TONIGHT...INDEPENDENCE DAY...FRIDAY NIGHT...AND\nSATURDAY.",
+  "zones": [
+   "CAZ508"
+  ],
+  "reportTime": "2014-07-03T19:40:00.000-07:00",
+  "cities": [],
+  "zoneNames": [
+   "San Francisco Bay Shoreline"
+  ],
+  "dayForecasts": [
+   {
+    "day": "Rest Of Tonight",
+    "forecast": "Clear in the evening then becoming partly cloudy. Patchy fog after midnight. Lows in the mid 50s. West winds 5 to 15 mph.",
+    "start": "2014-07-03T19:40:00.000",
+    "end": "2014-07-04T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Independence Day",
+    "forecast": "Partly cloudy in the morning then becoming sunny. Patchy fog in the morning. Highs in the 60s to upper 70s. Northwest winds 5 to 10 mph...becoming west 10 to 20 mph in the afternoon.",
+    "start": "2014-07-04T06:00:00.000",
+    "end": "2014-07-04T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Friday Night",
+    "forecast": "Clear in the evening then becoming mostly cloudy. Patchy fog after midnight. Lows in the mid 50s. West winds 10 to 20 mph...becoming 5 to 10 mph after midnight.",
+    "start": "2014-07-04T18:00:00.000",
+    "end": "2014-07-05T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Saturday",
+    "forecast": "Mostly cloudy in the morning then becoming sunny. Patchy fog in the morning. Highs in the 70s to lower 80s. West winds 5 to 10 mph.",
+    "start": "2014-07-05T06:00:00.000",
+    "end": "2014-07-05T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Saturday Night",
+    "forecast": "Clear. Lows in the mid 50s to lower 60s. West winds 10 to 20 mph...becoming southwest around 5 mph after midnight.",
+    "start": "2014-07-05T18:00:00.000",
+    "end": "2014-07-06T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Clear"
+     }
+    ]
+   },
+   {
+    "day": "Sunday",
+    "forecast": "Sunny. Highs in the 70s to upper 80s. ",
+    "start": "2014-07-06T06:00:00.000",
+    "end": "2014-07-06T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Sunny"
+     }
+    ]
+   },
+   {
+    "day": "Sunday Night Through Thursday",
+    "forecast": "Mostly clear. Lows in the mid 50s to lower 60s. Highs in the 70s to 80s.",
+    "start": "2014-07-03T19:40:00.000",
+    "end": "2014-07-03T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Mostly Clear"
+     }
+    ]
+   }
+  ]
+ },
+ "appendix": {
+  "airports": [
+   {
+    "fs": "SFO",
+    "iata": "SFO",
+    "icao": "KSFO",
+    "faa": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "cityCode": "SFO",
+    "stateCode": "CA",
+    "postalCode": "94128",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ508",
+    "localTime": "2014-07-03T20:21:47.338",
+    "utcOffsetHours": -7,
+    "latitude": 37.615215,
+    "longitude": -122.389881,
+    "elevationFeet": 11,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SFO?codeType=fs"
+   }
+  ]
+ }
+}

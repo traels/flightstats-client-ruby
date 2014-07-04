@@ -3,4 +3,7 @@ gemspec
 
 group :development do
   gem 'jruby-openssl', '~> 0.7.4', :platforms => :jruby # For WebMock.
+  gem 'guard-rspec', require: false
+  gem 'ruby_gntp'
+  gem 'growl', '~> 1.0.3'
 end

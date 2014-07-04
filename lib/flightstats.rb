@@ -105,6 +105,25 @@ module FlightStats
   require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
+ 
+  require 'flightstats/weather'
+  require 'flightstats/metar'
+  require 'flightstats/taf'
+  require 'flightstats/forecast'
+  require 'flightstats/condition'
+  require 'flightstats/wind'
+  require 'flightstats/visibility'
+  require 'flightstats/weather_condition'
+  require 'flightstats/sky_condition'
+  require 'flightstats/runway_visual_range'
+  require 'flightstats/obscuration'
+  require 'flightstats/tag'
+  require 'flightstats/zone_forecast'
+  require 'flightstats/zone'
+  require 'flightstats/city'
+  require 'flightstats/zone_name'
+  require 'flightstats/day_forecast'
+
 
   require 'flightstats/api'
 end

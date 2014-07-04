@@ -8,6 +8,7 @@ module FlightStats
                   :street1,
                   :city,
                   :city_code,
+                  :district,
                   :state_code,
                   :postal_code,
                   :country_code,

@@ -1,0 +1,148 @@
+{
+ "request": {
+  "url": "https://api.flightstats.com/flex/weather/rest/v1/json/zf/SFO",
+  "airport": {
+   "requestedCode": "SFO",
+   "fsCode": "SFO"
+  },
+  "codeType": {}
+ },
+ "zoneForecast": {
+  "header": "SAN FRANCISCO BAY SHORELINE-\n300 AM PDT FRI JUL 4 2014",
+  "general": "Expires:201407050400;;367110\nFPUS56 KMTR 041000\nZFPMTR\nSAN FRANCISCO BAY AREA/CENTRAL CALIFORNIA ZONE FORECAST\nNATIONAL WEATHER SERVICE SAN FRANCISCO BAY AREA\n300 AM PDT FRI JUL 4 2014\nTHIS IS AN AUTOMATICALLY GENERATED PRODUCT THAT PROVIDES AVERAGE\nVALUES FOR LARGE GEOGRAPHIC AREAS. FOR A MORE SITE-SPECIFIC\nFORECAST...PLEASE VISIT WEATHER.GOV/SANFRANCISCO \n(1) SELECT A LOCATION FROM THE DROP DOWN MENU ABOVE THE MAP...\n-- OR --\n(2) CLICK A LOCATION ON THE MAP.\nYOU CAN REFINE YOUR SELECTION BY CLICKING ON THE MAP DISPLAYED ON\nTHE RESULTING PAGE.\nSPOT TEMPERATURES AND PROBABILITIES OF MEASURABLE PRECIPITATION\nARE FOR TODAY...TONIGHT...AND SATURDAY.",
+  "zones": [
+   "CAZ508"
+  ],
+  "reportTime": "2014-07-04T03:00:00.000-07:00",
+  "cities": [],
+  "zoneNames": [
+   "San Francisco Bay Shoreline"
+  ],
+  "dayForecasts": [
+   {
+    "day": "Today",
+    "forecast": "Partly cloudy in the morning then becoming sunny. Patchy fog in the morning. Highs in the 60s to upper 70s. West winds 5 to 10 mph increasing to 10 to 20 mph in the afternoon.",
+    "start": "2014-07-04T06:00:00.000",
+    "end": "2014-07-04T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Tonight",
+    "forecast": "Clear in the evening then becoming mostly cloudy. Patchy fog after midnight. Lows in the 50s. West winds 10 to 20 mph decreasing to around 5 mph after midnight.",
+    "start": "2014-07-04T18:00:00.000",
+    "end": "2014-07-05T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Saturday",
+    "forecast": "Mostly cloudy in the morning then becoming sunny. Patchy fog in the morning. Highs in the 70s to lower 80s. Northwest winds 5 to 15 mph.",
+    "start": "2014-07-05T06:00:00.000",
+    "end": "2014-07-05T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Patchy Fog"
+     }
+    ]
+   },
+   {
+    "day": "Saturday Night",
+    "forecast": "Clear. Lows in the 50s. West winds 5 to 15 mph.",
+    "start": "2014-07-05T18:00:00.000",
+    "end": "2014-07-06T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Clear"
+     }
+    ]
+   },
+   {
+    "day": "Sunday",
+    "forecast": "Sunny. Highs in the lower 70s to mid 80s. Northwest winds 5 to 15 mph.",
+    "start": "2014-07-06T06:00:00.000",
+    "end": "2014-07-06T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Sunny"
+     }
+    ]
+   },
+   {
+    "day": "Sunday Night",
+    "forecast": "Mostly clear. Lows in the mid 50s to lower 60s. ",
+    "start": "2014-07-06T18:00:00.000",
+    "end": "2014-07-07T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Mostly Clear"
+     }
+    ]
+   },
+   {
+    "day": "Monday And Monday Night",
+    "forecast": "Mostly clear. Highs in the 70s to mid 80s. Lows in the mid 50s to lower 60s.",
+    "start": "2014-07-07T06:00:00.000",
+    "end": "2014-07-08T06:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Mostly Clear"
+     }
+    ]
+   },
+   {
+    "day": "Tuesday Through Thursday",
+    "forecast": "Mostly clear. Highs in the upper 60s to lower 80s. Lows in the mid 50s to lower 60s.",
+    "start": "2014-07-08T06:00:00.000",
+    "end": "2014-07-10T18:00:00.000",
+    "tags": [
+     {
+      "key": "Prevailing Conditions",
+      "value": "Mostly Clear"
+     }
+    ]
+   }
+  ]
+ },
+ "appendix": {
+  "airports": [
+   {
+    "fs": "SFO",
+    "iata": "SFO",
+    "icao": "KSFO",
+    "faa": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "cityCode": "SFO",
+    "stateCode": "CA",
+    "postalCode": "94128",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ508",
+    "localTime": "2014-07-04T10:04:45.909",
+    "utcOffsetHours": -7,
+    "latitude": 37.615215,
+    "longitude": -122.389881,
+    "elevationFeet": 11,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SFO?codeType=fs"
+   }
+  ]
+ }
+}
