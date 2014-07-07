@@ -67,7 +67,7 @@ module FlightStats
       end
 
       def arriving_at(arrival_code, requested_fields, options = {})
-        from_response API.get("#{base_path}/#{arrival_code}/arrivals", {}, options), 'fidsData'
+        from_response API.get("#{base_path}/#{arrival_code}/arrivals", { :requestedFields => requested_fields }, options), 'fidsData'
       end
 
       def base_path
