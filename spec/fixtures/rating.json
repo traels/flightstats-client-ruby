@@ -1,0 +1,100 @@
+{
+ "request": {
+  "airlineCode": {
+   "requestedCode": "UA",
+   "fsCode": "UA"
+  },
+  "flightNumber": {
+   "requested": "901",
+   "interpreted": "901"
+  },
+  "departureAirport": {},
+  "codeType": {},
+  "url": "https://api.flightstats.com/flex/ratings/rest/v1/json/flight/UA/901"
+ },
+ "ratings": [
+  {
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "LHR",
+   "airlineFsCode": "UA",
+   "flightNumber": "901",
+   "codeshares": 0,
+   "directs": 0,
+   "observations": 60,
+   "ontime": 51,
+   "late15": 3,
+   "late30": 2,
+   "late45": 4,
+   "cancelled": 0,
+   "diverted": 0,
+   "ontimePercent": 0.85000002,
+   "delayObservations": 23,
+   "delayMean": 32,
+   "delayStandardDeviation": 55.006035,
+   "delayMin": 0,
+   "delayMax": 181,
+   "allOntimeCumulative": 0.9332,
+   "allOntimeStars": 4.6999998,
+   "allDelayCumulative": 0.242,
+   "allDelayStars": 1.2,
+   "allStars": 2.95
+  }
+ ],
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "UA",
+    "iata": "UA",
+    "icao": "UAL",
+    "name": "United Airlines",
+    "phoneNumber": "1-800-864-8331",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "LHR",
+    "iata": "LHR",
+    "icao": "EGLL",
+    "name": "London Heathrow Airport",
+    "city": "London",
+    "cityCode": "LON",
+    "stateCode": "EN",
+    "countryCode": "GB",
+    "countryName": "United Kingdom",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/London",
+    "localTime": "2014-07-07T03:36:03.806",
+    "utcOffsetHours": 1,
+    "latitude": 51.469603,
+    "longitude": -0.453566,
+    "elevationFeet": 80,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "SFO",
+    "iata": "SFO",
+    "icao": "KSFO",
+    "faa": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "cityCode": "SFO",
+    "stateCode": "CA",
+    "postalCode": "94128",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ508",
+    "localTime": "2014-07-06T19:36:03.806",
+    "utcOffsetHours": -7,
+    "latitude": 37.615215,
+    "longitude": -122.389881,
+    "elevationFeet": 11,
+    "classification": 1,
+    "active": true
+   }
+  ]
+ }
+}
