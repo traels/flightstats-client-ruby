@@ -31,7 +31,7 @@ module FlightStats
       def from_json json, response_key
         model = nil
         raw = JSON.parse(json)
-        response_key ? from_parsed_json(raw[response_key], response_key) : raw
+        response_key ? from_parsed_json(raw[response_key].nil? ? raw : raw[response_key], response_key) : raw
       end
 
       # Given a string (key in the response json), find the right model.

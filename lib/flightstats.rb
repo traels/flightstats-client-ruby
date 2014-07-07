@@ -106,5 +106,7 @@ module FlightStats
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
 
+  require 'flightstats/fids_data'
+
   require 'flightstats/api'
 end
