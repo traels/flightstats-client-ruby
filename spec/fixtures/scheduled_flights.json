@@ -1,0 +1,2214 @@
+{
+ "request": {
+  "departureAirport": {
+   "requestedCode": "SFO",
+   "fsCode": "SFO"
+  },
+  "arrivalAirport": {
+   "requestedCode": "PDX",
+   "fsCode": "PDX"
+  },
+  "codeType": {},
+  "departing": true,
+  "date": {
+   "year": "2014",
+   "month": "7",
+   "day": "7",
+   "interpreted": "2014-07-07"
+  },
+  "url": "https://api.flightstats.com/flex/schedules/rest/v1/json/from/SFO/to/PDX/departing/2014/07/07"
+ },
+ "scheduledFlights": [
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "5238",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T18:35:00.000",
+   "arrivalTime": "2014-07-07T20:25:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": false,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "LH",
+     "flightNumber": "9036",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11055635
+    },
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9698",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2935039
+    }
+   ],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935934--"
+  },
+  {
+   "carrierFsCode": "LH",
+   "flightNumber": "9036",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T18:35:00.000",
+   "arrivalTime": "2014-07-07T20:25:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "5238",
+    "serviceType": "J",
+    "serviceClasses": [
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935934--11055635"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9698",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T18:35:00.000",
+   "arrivalTime": "2014-07-07T20:25:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "5238",
+    "serviceType": "J",
+    "serviceClasses": [
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935934--2935039"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "205",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T06:00:00.000",
+   "arrivalTime": "2014-07-07T07:45:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9097",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11054786
+    }
+   ],
+   "referenceCode": "1049-2935656--"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9097",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T06:00:00.000",
+   "arrivalTime": "2014-07-07T07:45:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "205",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935656--11054786"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "6409",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T13:52:00.000",
+   "arrivalTime": "2014-07-07T15:40:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": false,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "OZ",
+     "flightNumber": "6320",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2935623
+    },
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9696",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2935026
+    },
+    {
+     "carrierFsCode": "CA",
+     "flightNumber": "7328",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2934773
+    },
+    {
+     "carrierFsCode": "NH",
+     "flightNumber": "7324",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2934164
+    }
+   ],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935952--"
+  },
+  {
+   "carrierFsCode": "OZ",
+   "flightNumber": "6320",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T13:52:00.000",
+   "arrivalTime": "2014-07-07T15:40:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "6409",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935952--2935623"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9696",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T13:52:00.000",
+   "arrivalTime": "2014-07-07T15:40:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "6409",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935952--2935026"
+  },
+  {
+   "carrierFsCode": "CA",
+   "flightNumber": "7328",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T13:52:00.000",
+   "arrivalTime": "2014-07-07T15:40:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "6409",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935952--2934773"
+  },
+  {
+   "carrierFsCode": "NH",
+   "flightNumber": "7324",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T13:52:00.000",
+   "arrivalTime": "2014-07-07T15:40:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "6409",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2935952--2934164"
+  },
+  {
+   "carrierFsCode": "AS",
+   "flightNumber": "387",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T17:15:00.000",
+   "arrivalTime": "2014-07-07T18:49:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "AA",
+     "flightNumber": "6982",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [],
+     "referenceCode": 11055607
+    },
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "6091",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2935465
+    },
+    {
+     "carrierFsCode": "DL",
+     "flightNumber": "9145",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 2935386
+    },
+    {
+     "carrierFsCode": "CX",
+     "flightNumber": "7960",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 2934811
+    }
+   ],
+   "referenceCode": "1049-2934758--"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "6091",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T17:15:00.000",
+   "arrivalTime": "2014-07-07T18:49:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "387",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934758--2935465"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "9145",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T17:15:00.000",
+   "arrivalTime": "2014-07-07T18:49:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "387",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934758--2935386"
+  },
+  {
+   "carrierFsCode": "CX",
+   "flightNumber": "7960",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T17:15:00.000",
+   "arrivalTime": "2014-07-07T18:49:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "387",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934758--2934811"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "580",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T17:21:00.000",
+   "arrivalTime": "2014-07-07T19:12:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "LH",
+     "flightNumber": "9330",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11055610
+    },
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9112",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11055609
+    }
+   ],
+   "referenceCode": "1049-2935850--"
+  },
+  {
+   "carrierFsCode": "LH",
+   "flightNumber": "9330",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T17:21:00.000",
+   "arrivalTime": "2014-07-07T19:12:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "580",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935850--11055610"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9112",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T17:21:00.000",
+   "arrivalTime": "2014-07-07T19:12:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "580",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935850--11055609"
+  },
+  {
+   "carrierFsCode": "AS",
+   "flightNumber": "381",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T13:35:00.000",
+   "arrivalTime": "2014-07-07T15:12:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "KL",
+     "flightNumber": "9488",
+     "serviceType": "J",
+     "serviceClasses": [
+      "R",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11055254
+    },
+    {
+     "carrierFsCode": "AA",
+     "flightNumber": "7045",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [],
+     "referenceCode": 11055253
+    },
+    {
+     "carrierFsCode": "KE",
+     "flightNumber": "6093",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 2935442
+    },
+    {
+     "carrierFsCode": "DL",
+     "flightNumber": "9111",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 2935366
+    }
+   ],
+   "referenceCode": "1049-2934738--"
+  },
+  {
+   "carrierFsCode": "KL",
+   "flightNumber": "9488",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T13:35:00.000",
+   "arrivalTime": "2014-07-07T15:12:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "381",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934738--11055254"
+  },
+  {
+   "carrierFsCode": "KE",
+   "flightNumber": "6093",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T13:35:00.000",
+   "arrivalTime": "2014-07-07T15:12:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "381",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934738--2935442"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "9111",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T13:35:00.000",
+   "arrivalTime": "2014-07-07T15:12:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "381",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934738--2935366"
+  },
+  {
+   "carrierFsCode": "AS",
+   "flightNumber": "235",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T20:10:00.000",
+   "arrivalTime": "2014-07-07T21:43:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "DL",
+     "flightNumber": "8993",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 2934471
+    },
+    {
+     "carrierFsCode": "AA",
+     "flightNumber": "6912",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [],
+     "referenceCode": 2934380
+    }
+   ],
+   "referenceCode": "1049-2934003--"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "8993",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T20:10:00.000",
+   "arrivalTime": "2014-07-07T21:43:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "235",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934003--2934471"
+  },
+  {
+   "carrierFsCode": "VX",
+   "flightNumber": "810",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "2",
+   "departureTime": "2014-07-07T20:35:00.000",
+   "arrivalTime": "2014-07-07T22:20:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [],
+   "referenceCode": "1049-2934356--"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "6982",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T17:15:00.000",
+   "arrivalTime": "2014-07-07T18:49:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "387",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934758--11055607"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "7045",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T13:35:00.000",
+   "arrivalTime": "2014-07-07T15:12:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "381",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934738--11055253"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "6912",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T20:10:00.000",
+   "arrivalTime": "2014-07-07T21:43:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "235",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934003--2934380"
+  },
+  {
+   "carrierFsCode": "AS",
+   "flightNumber": "389",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T07:00:00.000",
+   "arrivalTime": "2014-07-07T08:36:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "DL",
+     "flightNumber": "7614",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 11054828
+    },
+    {
+     "carrierFsCode": "AA",
+     "flightNumber": "7051",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [],
+     "referenceCode": 11054827
+    }
+   ],
+   "referenceCode": "1049-2934856--"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "7614",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T07:00:00.000",
+   "arrivalTime": "2014-07-07T08:36:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "389",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934856--11054828"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "7051",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T07:00:00.000",
+   "arrivalTime": "2014-07-07T08:36:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "389",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934856--11054827"
+  },
+  {
+   "carrierFsCode": "DL",
+   "flightNumber": "7620",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T09:00:00.000",
+   "arrivalTime": "2014-07-07T10:36:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "385",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934874--11054949"
+  },
+  {
+   "carrierFsCode": "AA",
+   "flightNumber": "6977",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T09:00:00.000",
+   "arrivalTime": "2014-07-07T10:36:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "operator": {
+    "carrierFsCode": "AS",
+    "flightNumber": "385",
+    "serviceType": "J",
+    "serviceClasses": [
+     "R",
+     "F",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934874--11054947"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "1608",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T20:55:00.000",
+   "arrivalTime": "2014-07-07T22:47:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9694",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11055951
+    },
+    {
+     "carrierFsCode": "LH",
+     "flightNumber": "9256",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11055950
+    }
+   ],
+   "referenceCode": "1049-2934314--"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9694",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T20:55:00.000",
+   "arrivalTime": "2014-07-07T22:47:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "1608",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934314--11055951"
+  },
+  {
+   "carrierFsCode": "LH",
+   "flightNumber": "9256",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T20:55:00.000",
+   "arrivalTime": "2014-07-07T22:47:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "1608",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934314--11055950"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "1118",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T23:01:00.000",
+   "arrivalTime": "2014-07-08T00:53:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "OZ",
+     "flightNumber": "6322",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11056183
+    },
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9704",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11056182
+    },
+    {
+     "carrierFsCode": "LH",
+     "flightNumber": "9234",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "G"
+     ],
+     "referenceCode": 11056181
+    }
+   ],
+   "referenceCode": "1049-2935512--"
+  },
+  {
+   "carrierFsCode": "OZ",
+   "flightNumber": "6322",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T23:01:00.000",
+   "arrivalTime": "2014-07-08T00:53:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "1118",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935512--11056183"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9704",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T23:01:00.000",
+   "arrivalTime": "2014-07-08T00:53:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "1118",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935512--11056182"
+  },
+  {
+   "carrierFsCode": "LH",
+   "flightNumber": "9234",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T23:01:00.000",
+   "arrivalTime": "2014-07-08T00:53:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "G"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "1118",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935512--11056181"
+  },
+  {
+   "carrierFsCode": "AS",
+   "flightNumber": "385",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "I",
+   "departureTime": "2014-07-07T09:00:00.000",
+   "arrivalTime": "2014-07-07T10:36:00.000",
+   "flightEquipmentIataCode": "737",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "R",
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "DL",
+     "flightNumber": "7620",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 11054949
+    },
+    {
+     "carrierFsCode": "AA",
+     "flightNumber": "6977",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [],
+     "referenceCode": 11054947
+    }
+   ],
+   "referenceCode": "1049-2934874--"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "5196",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T07:23:00.000",
+   "arrivalTime": "2014-07-07T09:09:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": false,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9164",
+     "serviceType": "J",
+     "serviceClasses": [
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11054862
+    },
+    {
+     "carrierFsCode": "AV",
+     "flightNumber": "2056",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "O"
+     ],
+     "referenceCode": 11054860
+    }
+   ],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2934655--"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9164",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T07:23:00.000",
+   "arrivalTime": "2014-07-07T09:09:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "5196",
+    "serviceType": "J",
+    "serviceClasses": [
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2934655--11054862"
+  },
+  {
+   "carrierFsCode": "AV",
+   "flightNumber": "2056",
+   "brand": "United Express",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T07:23:00.000",
+   "arrivalTime": "2014-07-07T09:09:00.000",
+   "flightEquipmentIataCode": "CRJ",
+   "isCodeshare": true,
+   "isWetlease": true,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "O"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "5196",
+    "serviceType": "J",
+    "serviceClasses": [
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "wetleaseOperatorFsCode": "OO",
+   "referenceCode": "1049-2934655--11054860"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "500",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T10:50:00.000",
+   "arrivalTime": "2014-07-07T12:41:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9295",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11055080
+    },
+    {
+     "carrierFsCode": "CA",
+     "flightNumber": "7329",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11055079
+    },
+    {
+     "carrierFsCode": "NH",
+     "flightNumber": "7312",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11055078
+    },
+    {
+     "carrierFsCode": "9W",
+     "flightNumber": "5406",
+     "serviceType": "J",
+     "serviceClasses": [
+      "F",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Y"
+     ],
+     "referenceCode": 11055077
+    }
+   ],
+   "referenceCode": "1049-2934560--"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9295",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T10:50:00.000",
+   "arrivalTime": "2014-07-07T12:41:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "500",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934560--11055080"
+  },
+  {
+   "carrierFsCode": "CA",
+   "flightNumber": "7329",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T10:50:00.000",
+   "arrivalTime": "2014-07-07T12:41:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "500",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934560--11055079"
+  },
+  {
+   "carrierFsCode": "NH",
+   "flightNumber": "7312",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T10:50:00.000",
+   "arrivalTime": "2014-07-07T12:41:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "500",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934560--11055078"
+  },
+  {
+   "carrierFsCode": "9W",
+   "flightNumber": "5406",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T10:50:00.000",
+   "arrivalTime": "2014-07-07T12:41:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Y"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "500",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2934560--11055077"
+  },
+  {
+   "carrierFsCode": "UA",
+   "flightNumber": "681",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T19:45:00.000",
+   "arrivalTime": "2014-07-07T21:34:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": false,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "F",
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [],
+   "codeshares": [
+    {
+     "carrierFsCode": "NZ",
+     "flightNumber": "9095",
+     "serviceType": "J",
+     "serviceClasses": [
+      "J",
+      "Y"
+     ],
+     "trafficRestrictions": [
+      "Q"
+     ],
+     "referenceCode": 11055775
+    }
+   ],
+   "referenceCode": "1049-2935477--"
+  },
+  {
+   "carrierFsCode": "NZ",
+   "flightNumber": "9095",
+   "departureAirportFsCode": "SFO",
+   "arrivalAirportFsCode": "PDX",
+   "stops": 0,
+   "departureTerminal": "3",
+   "departureTime": "2014-07-07T19:45:00.000",
+   "arrivalTime": "2014-07-07T21:34:00.000",
+   "flightEquipmentIataCode": "32S",
+   "isCodeshare": true,
+   "isWetlease": false,
+   "serviceType": "J",
+   "serviceClasses": [
+    "J",
+    "Y"
+   ],
+   "trafficRestrictions": [
+    "Q"
+   ],
+   "operator": {
+    "carrierFsCode": "UA",
+    "flightNumber": "681",
+    "serviceType": "J",
+    "serviceClasses": [
+     "F",
+     "J",
+     "Y"
+    ],
+    "trafficRestrictions": []
+   },
+   "codeshares": [],
+   "referenceCode": "1049-2935477--11055775"
+  }
+ ],
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "AS",
+    "iata": "AS",
+    "icao": "ASA",
+    "name": "Alaska Airlines",
+    "phoneNumber": "1-800-252-7522",
+    "active": true
+   },
+   {
+    "fs": "CX",
+    "iata": "CX",
+    "icao": "CPA",
+    "name": "Cathay Pacific",
+    "active": true
+   },
+   {
+    "fs": "9W",
+    "iata": "9W",
+    "icao": "JAI",
+    "name": "Jet Airways (India)",
+    "active": true
+   },
+   {
+    "fs": "NZ",
+    "iata": "NZ",
+    "icao": "ANZ",
+    "name": "Air New Zealand",
+    "phoneNumber": "1-800-262-1234",
+    "active": true
+   },
+   {
+    "fs": "KL",
+    "iata": "KL",
+    "icao": "KLM",
+    "name": "KLM",
+    "active": true
+   },
+   {
+    "fs": "AV",
+    "iata": "AV",
+    "icao": "AVA",
+    "name": "AVIANCA",
+    "active": true
+   },
+   {
+    "fs": "OZ",
+    "iata": "OZ",
+    "icao": "AAR",
+    "name": "Asiana Airlines",
+    "active": true
+   },
+   {
+    "fs": "CA",
+    "iata": "CA",
+    "icao": "CCA",
+    "name": "Air China",
+    "phoneNumber": "1-800-986-1985",
+    "active": true
+   },
+   {
+    "fs": "OO",
+    "iata": "OO",
+    "icao": "SKW",
+    "name": "SkyWest Airlines",
+    "active": true
+   },
+   {
+    "fs": "DL",
+    "iata": "DL",
+    "icao": "DAL",
+    "name": "Delta Air Lines",
+    "phoneNumber": "1-800-221-1212",
+    "active": true
+   },
+   {
+    "fs": "UA",
+    "iata": "UA",
+    "icao": "UAL",
+    "name": "United Airlines",
+    "phoneNumber": "1-800-864-8331",
+    "active": true
+   },
+   {
+    "fs": "AA",
+    "iata": "AA",
+    "icao": "AAL",
+    "name": "American Airlines",
+    "phoneNumber": "1-800-433-7300",
+    "active": true
+   },
+   {
+    "fs": "NH",
+    "iata": "NH",
+    "icao": "ANA",
+    "name": "ANA",
+    "phoneNumber": "1-800-235-9262",
+    "active": true
+   },
+   {
+    "fs": "LH",
+    "iata": "LH",
+    "icao": "DLH",
+    "name": "Lufthansa",
+    "active": true
+   },
+   {
+    "fs": "VX",
+    "iata": "VX",
+    "icao": "VRD",
+    "name": "Virgin America",
+    "active": true
+   },
+   {
+    "fs": "KE",
+    "iata": "KE",
+    "icao": "KAL",
+    "name": "Korean Air",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "SFO",
+    "iata": "SFO",
+    "icao": "KSFO",
+    "faa": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "cityCode": "SFO",
+    "stateCode": "CA",
+    "postalCode": "94128",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ508",
+    "localTime": "2014-07-06T17:38:57.134",
+    "utcOffsetHours": -7,
+    "latitude": 37.615215,
+    "longitude": -122.389881,
+    "elevationFeet": 11,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "PDX",
+    "iata": "PDX",
+    "icao": "KPDX",
+    "faa": "PDX",
+    "name": "Portland International Airport",
+    "street1": "7000 NE Airport Way",
+    "city": "Portland",
+    "cityCode": "PDX",
+    "stateCode": "OR",
+    "postalCode": "97218",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "ORZ006",
+    "localTime": "2014-07-06T17:38:57.134",
+    "utcOffsetHours": -7,
+    "latitude": 45.588995,
+    "longitude": -122.592901,
+    "elevationFeet": 30,
+    "classification": 1,
+    "active": true
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "32S",
+    "name": "Airbus Industrie A318/319/320/321",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "737",
+    "name": "Boeing 737 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "CRJ",
+    "name": "Canadair (Bombardier) Regional Jet",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": true
+   }
+  ]
+ }
+}
