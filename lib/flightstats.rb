@@ -125,5 +125,7 @@ module FlightStats
   require 'flightstats/day_forecast'
 
 
+  require 'flightstats/rating'
+
   require 'flightstats/api'
 end
