@@ -1,0 +1,143 @@
+{
+ "request": {
+  "url": "https://api.flightstats.com/flex/weather/rest/v1/json/taf/SFO",
+  "airport": {
+   "requestedCode": "SFO",
+   "fsCode": "SFO"
+  },
+  "codeType": {}
+ },
+ "taf": {
+  "report": "TAF\n      AMD KSFO 041501Z 0415/0518 29004KT P6SM FEW008 \n     FM042100 28018KT P6SM FEW010 \n     FM050400 28012KT P6SM FEW200 \n     FM051500 27005KT P6SM SCT200",
+  "reportTime": "2014-07-04T15:06:00.000Z",
+  "observationTime": "2014-07-04T15:01:00.000Z",
+  "reportType": "Amendment",
+  "weatherStationIcao": "KSFO",
+  "forecasts": [
+   {
+    "type": "Base",
+    "start": "2014-07-04T15:00:00.000Z",
+    "end": "2014-07-05T18:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 290,
+      "directionIsVariable": false,
+      "speedKnots": "4.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Few clouds",
+       "base": 800
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-04T21:00:00.000Z",
+    "end": "2014-07-05T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "18.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Few clouds",
+       "base": 1000
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-05T04:00:00.000Z",
+    "end": "2014-07-06T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 280,
+      "directionIsVariable": false,
+      "speedKnots": "12.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Few clouds",
+       "base": 20000
+      }
+     ]
+    }
+   },
+   {
+    "type": "From",
+    "start": "2014-07-05T15:00:00.000Z",
+    "end": "2014-07-06T00:00:00.000Z",
+    "conditions": {
+     "wind": {
+      "direction": 270,
+      "directionIsVariable": false,
+      "speedKnots": "5.00"
+     },
+     "visibility": {
+      "miles": "6.00",
+      "lessThan": false,
+      "cavok": false
+     },
+     "weatherConditions": [],
+     "skyConditions": [
+      {
+       "coverage": "Scattered clouds",
+       "base": 20000
+      }
+     ]
+    }
+   }
+  ]
+ },
+ "appendix": {
+  "airports": [
+   {
+    "fs": "SFO",
+    "iata": "SFO",
+    "icao": "KSFO",
+    "faa": "SFO",
+    "name": "San Francisco International Airport",
+    "city": "San Francisco",
+    "cityCode": "SFO",
+    "stateCode": "CA",
+    "postalCode": "94128",
+    "countryCode": "US",
+    "countryName": "United States",
+    "regionName": "North America",
+    "timeZoneRegionName": "America/Los_Angeles",
+    "weatherZone": "CAZ508",
+    "localTime": "2014-07-04T09:33:09.087",
+    "utcOffsetHours": -7,
+    "latitude": 37.615215,
+    "longitude": -122.389881,
+    "elevationFeet": 11,
+    "classification": 1,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SFO?codeType=fs"
+   }
+  ]
+ }
+}
