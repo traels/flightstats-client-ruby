@@ -127,5 +127,7 @@ module FlightStats
 
   require 'flightstats/rating'
 
+  require 'flightstats/fids_data'
+
   require 'flightstats/api'
 end

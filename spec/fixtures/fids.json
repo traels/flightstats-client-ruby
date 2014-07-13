@@ -1,0 +1,1148 @@
+{
+ "fidsData": [
+  {
+   "airlineCode": "DL",
+   "flightNumber": "1452",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "VS",
+   "flightNumber": "5008",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "KL",
+   "flightNumber": "6385",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "AZ",
+   "flightNumber": "3360",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "DL",
+   "flightNumber": "1969",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "07:30 AM"
+  },
+  {
+   "airlineCode": "VS",
+   "flightNumber": "5010",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "07:30 AM"
+  },
+  {
+   "airlineCode": "KL",
+   "flightNumber": "7211",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "07:30 AM"
+  },
+  {
+   "airlineCode": "AF",
+   "flightNumber": "8499",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "07:30 AM"
+  },
+  {
+   "airlineCode": "DL",
+   "flightNumber": "1784",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "01:00 PM"
+  },
+  {
+   "airlineCode": "AF",
+   "flightNumber": "5679",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "01:00 PM"
+  },
+  {
+   "airlineCode": "KL",
+   "flightNumber": "5991",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "01:00 PM"
+  },
+  {
+   "airlineCode": "VS",
+   "flightNumber": "5012",
+   "remarks": "On-Time",
+   "city": "Atlanta",
+   "currentTime": "01:00 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "136",
+   "remarks": "On-Time",
+   "city": "Baltimore",
+   "gate": "A5",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "YX",
+   "flightNumber": "5301",
+   "remarks": "On-Time",
+   "city": "Bullhead City",
+   "currentTime": "09:16 PM"
+  },
+  {
+   "airlineCode": "LW",
+   "flightNumber": "111",
+   "remarks": "On-Time",
+   "city": "Carlsbad",
+   "currentTime": "07:00 AM"
+  },
+  {
+   "airlineCode": "LW",
+   "flightNumber": "111",
+   "remarks": "On-Time",
+   "city": "Carlsbad",
+   "currentTime": "07:00 AM"
+  },
+  {
+   "airlineCode": "MQ",
+   "flightNumber": "2844",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "06:55 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2844",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "06:55 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "8025",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "06:55 AM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "4481",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "06:55 AM"
+  },
+  {
+   "airlineCode": "IB",
+   "flightNumber": "4327",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "06:55 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "2313",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "A11",
+   "currentTime": "08:00 AM"
+  },
+  {
+   "airlineCode": "MQ",
+   "flightNumber": "3042",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "3042",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "QR",
+   "flightNumber": "5403",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "EY",
+   "flightNumber": "3425",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2979",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "GF",
+   "flightNumber": "4114",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "RJ",
+   "flightNumber": "7171",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "1819",
+   "remarks": "On-Time",
+   "city": "Chicago",
+   "gate": "B3",
+   "currentTime": "12:50 PM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2312",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2312",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "1698",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "3809",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "A11",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "1184",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "07:20 AM"
+  },
+  {
+   "airlineCode": "JL",
+   "flightNumber": "7231",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "07:20 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "1184",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "07:20 AM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "5038",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "07:20 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1709",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "A8",
+   "currentTime": "08:40 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "336",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "09:00 AM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "4705",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "09:00 AM"
+  },
+  {
+   "airlineCode": "JL",
+   "flightNumber": "7277",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "09:00 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "336",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "09:00 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "1467",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "10:30 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "1467",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "10:30 AM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "1724",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "10:30 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "31",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "currentTime": "10:50 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "1662",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "11:45 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "1662",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "11:45 AM"
+  },
+  {
+   "airlineCode": "GF",
+   "flightNumber": "6427",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "11:45 AM"
+  },
+  {
+   "airlineCode": "WS",
+   "flightNumber": "5165",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "11:45 AM"
+  },
+  {
+   "airlineCode": "BA",
+   "flightNumber": "5089",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "gate": "B1",
+   "currentTime": "11:45 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "928",
+   "remarks": "On-Time",
+   "city": "Dallas",
+   "currentTime": "12:15 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "2367",
+   "remarks": "Departed On-Time",
+   "city": "Dallas",
+   "gate": "A11",
+   "currentTime": "08:56 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1310",
+   "remarks": "Delayed 55 minutes",
+   "city": "Dallas",
+   "gate": "A8",
+   "currentTime": "09:20 PM"
+  },
+  {
+   "airlineCode": "YX",
+   "flightNumber": "3857",
+   "remarks": "On-Time",
+   "city": "Denver",
+   "gate": "A3",
+   "currentTime": "05:49 AM"
+  },
+  {
+   "airlineCode": "UA",
+   "flightNumber": "3857",
+   "remarks": "On-Time",
+   "city": "Denver",
+   "gate": "A3",
+   "currentTime": "05:49 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "4427",
+   "remarks": "On-Time",
+   "city": "Denver",
+   "gate": "A5",
+   "currentTime": "08:15 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1499",
+   "remarks": "On-Time",
+   "city": "Denver",
+   "currentTime": "11:10 AM"
+  },
+  {
+   "airlineCode": "EV",
+   "flightNumber": "6002",
+   "remarks": "Departed 20 minutes late",
+   "city": "Denver",
+   "gate": "A3",
+   "currentTime": "07:45 PM"
+  },
+  {
+   "airlineCode": "UA",
+   "flightNumber": "6002",
+   "remarks": "Departed 20 minutes late",
+   "city": "Denver",
+   "gate": "A3",
+   "currentTime": "07:45 PM"
+  },
+  {
+   "airlineCode": "AC",
+   "flightNumber": "3548",
+   "remarks": "Departed 20 minutes late",
+   "city": "Denver",
+   "gate": "A3",
+   "currentTime": "07:45 PM"
+  },
+  {
+   "airlineCode": "S5",
+   "flightNumber": "3487",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "UA",
+   "flightNumber": "3487",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "AC",
+   "flightNumber": "4719",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "CM",
+   "flightNumber": "8360",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "293",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A7",
+   "currentTime": "06:40 AM"
+  },
+  {
+   "airlineCode": "FL",
+   "flightNumber": "2293",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A7",
+   "currentTime": "06:40 AM"
+  },
+  {
+   "airlineCode": "EV",
+   "flightNumber": "4698",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "08:59 AM"
+  },
+  {
+   "airlineCode": "UA",
+   "flightNumber": "4698",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "08:59 AM"
+  },
+  {
+   "airlineCode": "CM",
+   "flightNumber": "5605",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "08:59 AM"
+  },
+  {
+   "airlineCode": "AC",
+   "flightNumber": "3090",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "08:59 AM"
+  },
+  {
+   "airlineCode": "EV",
+   "flightNumber": "5895",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "10:39 AM"
+  },
+  {
+   "airlineCode": "UA",
+   "flightNumber": "5895",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "10:39 AM"
+  },
+  {
+   "airlineCode": "AC",
+   "flightNumber": "3086",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "10:39 AM"
+  },
+  {
+   "airlineCode": "LH",
+   "flightNumber": "8678",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "10:39 AM"
+  },
+  {
+   "airlineCode": "CM",
+   "flightNumber": "5149",
+   "remarks": "On-Time",
+   "city": "Houston",
+   "gate": "A2",
+   "currentTime": "10:39 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "4037",
+   "remarks": "Delayed 45 minutes",
+   "city": "Houston",
+   "gate": "A5",
+   "currentTime": "09:20 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "3405",
+   "remarks": "On-Time",
+   "city": "Kansas City",
+   "currentTime": "12:25 PM"
+  },
+  {
+   "airlineCode": "FL",
+   "flightNumber": "5405",
+   "remarks": "On-Time",
+   "city": "Kansas City",
+   "currentTime": "12:25 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "42",
+   "remarks": "On-Time",
+   "city": "Las Vegas",
+   "gate": "A9",
+   "currentTime": "06:10 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "2222",
+   "remarks": "On-Time",
+   "city": "Las Vegas",
+   "currentTime": "09:55 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1208",
+   "remarks": "On-Time",
+   "city": "Las Vegas",
+   "currentTime": "01:10 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "362",
+   "remarks": "Departed 21 minutes late",
+   "city": "Las Vegas",
+   "gate": "A5",
+   "currentTime": "08:16 PM"
+  },
+  {
+   "airlineCode": "FL",
+   "flightNumber": "2362",
+   "remarks": "Departed 21 minutes late",
+   "city": "Las Vegas",
+   "gate": "A5",
+   "currentTime": "08:16 PM"
+  },
+  {
+   "airlineCode": "LW",
+   "flightNumber": "169",
+   "remarks": "On-Time",
+   "city": "Los Alamos",
+   "currentTime": "10:00 PM"
+  },
+  {
+   "airlineCode": "LW",
+   "flightNumber": "169",
+   "remarks": "On-Time",
+   "city": "Los Alamos",
+   "currentTime": "10:00 PM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "2597",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B3",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2597",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B3",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "JL",
+   "flightNumber": "7569",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B3",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "AS",
+   "flightNumber": "4032",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B3",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "3099",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B3",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "WS",
+   "flightNumber": "5589",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B3",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "597",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "A8",
+   "currentTime": "07:15 AM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "2575",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2575",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "WS",
+   "flightNumber": "5527",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "3078",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "AS",
+   "flightNumber": "4593",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "IB",
+   "flightNumber": "4393",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "EY",
+   "flightNumber": "3351",
+   "remarks": "On-Time",
+   "city": "Los Angeles",
+   "gate": "B1",
+   "currentTime": "12:20 PM"
+  },
+  {
+   "airlineCode": "DL",
+   "flightNumber": "2598",
+   "remarks": "On-Time",
+   "city": "Minneapolis",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "B6",
+   "flightNumber": "66",
+   "remarks": "On-Time",
+   "city": "New York",
+   "gate": "B5",
+   "currentTime": "11:57 PM"
+  },
+  {
+   "airlineCode": "EY",
+   "flightNumber": "8240",
+   "remarks": "On-Time",
+   "city": "New York",
+   "gate": "B5",
+   "currentTime": "11:57 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "2456",
+   "remarks": "On-Time",
+   "city": "Oakland",
+   "gate": "A8",
+   "currentTime": "06:40 AM"
+  },
+  {
+   "airlineCode": "FL",
+   "flightNumber": "4456",
+   "remarks": "On-Time",
+   "city": "Oakland",
+   "gate": "A8",
+   "currentTime": "06:40 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "4669",
+   "remarks": "On-Time",
+   "city": "Oakland",
+   "currentTime": "12:45 PM"
+  },
+  {
+   "airlineCode": "FL",
+   "flightNumber": "6669",
+   "remarks": "On-Time",
+   "city": "Oakland",
+   "currentTime": "12:45 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1095",
+   "remarks": "Departed On-Time",
+   "city": "Oakland",
+   "gate": "A7",
+   "currentTime": "09:06 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "578",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "A6",
+   "currentTime": "06:00 AM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "2921",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "06:30 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2921",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "06:30 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2651",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "06:30 AM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "2967",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "08:30 AM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2967",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "08:30 AM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2650",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "08:30 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "569",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "currentTime": "09:05 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1133",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "currentTime": "10:50 AM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "2931",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "12:25 PM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2931",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "12:25 PM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2652",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "12:25 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "747",
+   "remarks": "Departed On-Time",
+   "city": "Phoenix",
+   "gate": "A8",
+   "currentTime": "07:25 PM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "2950",
+   "remarks": "Departed 70 minutes late",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "07:45 PM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2950",
+   "remarks": "Departed 70 minutes late",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "07:45 PM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "2655",
+   "remarks": "Departed 70 minutes late",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "07:45 PM"
+  },
+  {
+   "airlineCode": "YV",
+   "flightNumber": "2839",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "09:50 PM"
+  },
+  {
+   "airlineCode": "US",
+   "flightNumber": "2839",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "09:50 PM"
+  },
+  {
+   "airlineCode": "AA",
+   "flightNumber": "5391",
+   "remarks": "On-Time",
+   "city": "Phoenix",
+   "gate": "B4",
+   "currentTime": "09:50 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "338",
+   "remarks": "Delayed 85 minutes",
+   "city": "Phoenix",
+   "gate": "A7",
+   "currentTime": "09:50 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "4352",
+   "remarks": "On-Time",
+   "city": "Portland",
+   "currentTime": "09:15 AM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "4441",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "DL",
+   "flightNumber": "4441",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "AS",
+   "flightNumber": "5359",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "06:15 AM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "4462",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "12:40 PM"
+  },
+  {
+   "airlineCode": "DL",
+   "flightNumber": "4462",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "12:40 PM"
+  },
+  {
+   "airlineCode": "AF",
+   "flightNumber": "9223",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "12:40 PM"
+  },
+  {
+   "airlineCode": "AS",
+   "flightNumber": "5358",
+   "remarks": "On-Time",
+   "city": "Salt Lake City",
+   "currentTime": "12:40 PM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "4499",
+   "remarks": "Delayed 305 minutes",
+   "city": "Salt Lake City",
+   "gate": "B8",
+   "currentTime": "10:35 PM"
+  },
+  {
+   "airlineCode": "DL",
+   "flightNumber": "4499",
+   "remarks": "Delayed 305 minutes",
+   "city": "Salt Lake City",
+   "gate": "B8",
+   "currentTime": "10:35 PM"
+  },
+  {
+   "airlineCode": "AS",
+   "flightNumber": "5000",
+   "remarks": "Delayed 305 minutes",
+   "city": "Salt Lake City",
+   "gate": "B8",
+   "currentTime": "10:35 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "294",
+   "remarks": "On-Time",
+   "city": "San Diego",
+   "gate": "A7",
+   "currentTime": "07:30 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "2280",
+   "remarks": "On-Time",
+   "city": "San Diego",
+   "currentTime": "12:30 PM"
+  },
+  {
+   "airlineCode": "OO",
+   "flightNumber": "6234",
+   "remarks": "On-Time",
+   "city": "San Francisco",
+   "currentTime": "05:30 AM"
+  },
+  {
+   "airlineCode": "UA",
+   "flightNumber": "6234",
+   "remarks": "On-Time",
+   "city": "San Francisco",
+   "currentTime": "05:30 AM"
+  },
+  {
+   "airlineCode": "AC",
+   "flightNumber": "4031",
+   "remarks": "On-Time",
+   "city": "San Francisco",
+   "currentTime": "05:30 AM"
+  },
+  {
+   "airlineCode": "NH",
+   "flightNumber": "7329",
+   "remarks": "On-Time",
+   "city": "San Francisco",
+   "currentTime": "05:30 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "4288",
+   "remarks": "On-Time",
+   "city": "Seattle",
+   "currentTime": "09:50 AM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "1481",
+   "remarks": "Departed 32 minutes late",
+   "city": "Seattle",
+   "gate": "A7",
+   "currentTime": "08:32 PM"
+  },
+  {
+   "airlineCode": "WN",
+   "flightNumber": "9000",
+   "remarks": "Departed On-Time",
+   "city": "Seattle",
+   "currentTime": "08:40 PM"
+  }
+ ]
+}
