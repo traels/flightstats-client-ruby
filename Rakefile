@@ -16,7 +16,7 @@ namespace :test do
     desc "Run RSpec remote tests"
     RSpec::Core::RakeTask.new do |task|
       task.name = 'spec'
-      task.pattern = './spec/*/remote/*_spec.rb'
+      task.pattern = './spec/remote/*_spec.rb'
     end
   end
 end
