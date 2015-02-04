@@ -3,10 +3,20 @@ module FlightStats
   class Alert < OpenStruct
 
     @@base_path = "/flex/alerts/rest/v1/json/create"
+    @@required_params = {
+      deliverTo: FlightStats.alert_deliveries,
+      type: FlightStats.alert_type
+    }
 
     class << self
       def by_arrival(carrier, flight_number, arrival_airport, year, month, day, options = {})
-        from_response API.get("#{base_path}/#{carrier}/#{flight_number}/to/#{arrival_airport}/arriving/#{year}/#{month}/#{day}", {}, options), 'alert'
+        from_response API.get("#{base_path}/#{carrier}/#{flight_number}/to/#{arrival_airport}/arriving/#{year}/#{month}/#{day}",
+                              required_params,
+                              options), 'alert'
+      end
+
+      def required_params
+        @@required_params
       end
 
       def base_path

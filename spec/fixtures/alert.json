@@ -28,8 +28,8 @@
    "interpreted": "JSON"
   },
   "deliverTo": {
-   "requested": "smtp://apanach@3mundi.com",
-   "interpreted": "smtp://apanach@3mundi.com"
+   "requested": "smtp://example@email.com",
+   "interpreted": "smtp://example@email.com"
   },
   "events": [
    {
@@ -57,7 +57,7 @@
   "nameValues": [],
   "delivery": {
    "format": "json",
-   "destination": "smtp://apanach@3mundi.com"
+   "destination": "smtp://example@email.com"
   }
  },
  "appendix": {

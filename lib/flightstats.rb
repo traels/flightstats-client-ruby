@@ -34,6 +34,17 @@ module FlightStats
     end
     attr_writer :app_key
 
+    attr_accessor :alert_deliveries
+    def alert_type
+      allowed_formats = %w(JSON XML)
+      return 'JSON' if @alert_type.nil?
+      raise(
+        ConfigurationError, "FlightStats.alert_type is not valid, allowed: 'JSON', 'XML'"
+      ) unless allowed_formats.include?(@alert_type)
+      @alert_type
+    end
+    attr_writer :alert_type
+
     # Assigns a logger to log requests/responses and more.
     #
     # @return [Logger, nil]
