@@ -3,10 +3,6 @@ module FlightStats
   class Alert < OpenStruct
 
     @@base_path = "/flex/alerts/rest/v1/json/create"
-    @@required_params = {
-      deliverTo: FlightStats.alert_deliveries,
-      type: FlightStats.alert_type
-    }
 
     class << self
       def by_arrival(carrier, flight_number, arrival_airport, year, month, day, options = {})
@@ -16,7 +12,10 @@ module FlightStats
       end
 
       def required_params
-        @@required_params
+        {
+          deliverTo: FlightStats.alert_deliveries,
+          type: FlightStats.alert_type
+        }
       end
 
       def base_path
