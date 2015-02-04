@@ -1,8 +1,6 @@
 require 'json'
 module FlightStats
-  class Alert < OpenStruct #Resource
-    # include Virtus.model
-    # attribute :data, Hash
+  class Alert < OpenStruct
 
     @@base_path = "/flex/alerts/rest/v1/json/create"
 

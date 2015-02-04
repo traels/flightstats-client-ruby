@@ -127,7 +127,6 @@ module FlightStats
 
   require 'flightstats/rating'
   require 'flightstats/alert'
-  require 'flightstats/recursive_open_struct'
 
   require 'flightstats/fids_data'
 
