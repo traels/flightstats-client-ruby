@@ -105,7 +105,7 @@ module FlightStats
   require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
- 
+
   require 'flightstats/weather'
   require 'flightstats/metar'
   require 'flightstats/taf'
@@ -126,6 +126,8 @@ module FlightStats
 
 
   require 'flightstats/rating'
+  require 'flightstats/alert'
+  require 'flightstats/recursive_open_struct'
 
   require 'flightstats/fids_data'
 

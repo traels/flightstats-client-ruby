@@ -1,0 +1,125 @@
+{
+ "request": {
+  "airport": {
+   "requestedCode": "ORY",
+   "fsCode": "ORY"
+  },
+  "url": "https://api.flightstats.com/flex/alerts/rest/v1/json/create/AF/6127/to/ORY/arriving/2015/02/6",
+  "airlineCode": {
+   "requestedCode": "AF",
+   "fsCode": "AF"
+  },
+  "flightNumber": {
+   "requested": "6127",
+   "interpreted": "6127"
+  },
+  "date": {
+   "year": "2015",
+   "month": "2",
+   "day": "6",
+   "interpreted": "2015-02-06"
+  },
+  "name": {
+   "interpreted": "Default"
+  },
+  "description": {},
+  "type": {
+   "requested": "JSON",
+   "interpreted": "JSON"
+  },
+  "deliverTo": {
+   "requested": "smtp://apanach@3mundi.com",
+   "interpreted": "smtp://apanach@3mundi.com"
+  },
+  "events": [
+   {
+    "interpreted": "all"
+   }
+  ],
+  "nameValues": [],
+  "codeType": {},
+  "extendedOptions": {}
+ },
+ "rule": {
+  "id": "243871895",
+  "name": "Default",
+  "carrierFsCode": "AF",
+  "flightNumber": "6127",
+  "departureAirportFsCode": "TLS",
+  "arrivalAirportFsCode": "ORY",
+  "departure": "2015-02-06T06:20:00.000",
+  "arrival": "2015-02-06T07:40:00.000",
+  "ruleEvents": [
+   {
+    "type": "ALL_CHANGES"
+   }
+  ],
+  "nameValues": [],
+  "delivery": {
+   "format": "json",
+   "destination": "smtp://apanach@3mundi.com"
+  }
+ },
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "AF",
+    "iata": "AF",
+    "icao": "AFR",
+    "name": "Air France",
+    "phoneNumber": "1-800-237-2747",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "ORY",
+    "iata": "ORY",
+    "icao": "LFPO",
+    "name": "Paris Orly Airport",
+    "street1": "94396 Orly Aérogare",
+    "city": "Paris",
+    "cityCode": "PAR",
+    "countryCode": "FR",
+    "countryName": "France",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Paris",
+    "localTime": "2015-02-04T13:19:06.351",
+    "utcOffsetHours": 1,
+    "latitude": 48.728283,
+    "longitude": 2.3597,
+    "elevationFeet": 292,
+    "classification": 1,
+    "active": true
+   },
+   {
+    "fs": "TLS",
+    "iata": "TLS",
+    "icao": "LFBO",
+    "name": "Blagnac Airport",
+    "city": "Toulouse",
+    "cityCode": "TLS",
+    "countryCode": "FR",
+    "countryName": "France",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Paris",
+    "localTime": "2015-02-04T13:19:06.740",
+    "utcOffsetHours": 1,
+    "latitude": 43.630071,
+    "longitude": 1.374321,
+    "elevationFeet": 499,
+    "classification": 2,
+    "active": true
+   }
+  ]
+ },
+ "alertCapabilities": {
+  "baggage": false,
+  "departureGateChange": false,
+  "arrivalGateChange": false,
+  "gateDeparture": true,
+  "gateArrival": true,
+  "runwayDeparture": true,
+  "runwayArrival": true
+ }
+}
