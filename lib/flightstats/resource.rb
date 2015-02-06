@@ -30,7 +30,6 @@ module FlightStats
       # @see from_response
       def from_json json, response_key
         model = nil
-        byebug
         raw = JSON.parse(json)
         response_key ? from_parsed_json(raw[response_key].nil? ? raw : raw[response_key], response_key) : raw
       end
