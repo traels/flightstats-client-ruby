@@ -37,12 +37,12 @@ module FlightStats
 
     def alert_deliveries
       defined? @alert_deliveries and @alert_deliveries or raise(
-        ConfigurationError, "FlightStats.app_key not configured"
+        ConfigurationError, "FlightStats.alert_deliveries not configured"
       )
     end
     attr_writer :alert_deliveries
 
-    
+
     def alert_type
       allowed_formats = %w(JSON XML)
       return 'JSON' if @alert_type.nil?
