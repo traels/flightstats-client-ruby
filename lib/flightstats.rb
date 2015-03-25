@@ -79,6 +79,7 @@ module FlightStats
   require 'flightstats/airline'
   require 'flightstats/airport'
   require 'flightstats/airport_resources'
+  require 'flightstats/alert'
   require 'flightstats/appendix'
   require 'flightstats/arrival_date'
   require 'flightstats/codeshare'
@@ -101,11 +102,12 @@ module FlightStats
   require 'flightstats/operator'
   require 'flightstats/published_arrival'
   require 'flightstats/published_departure'
+  require 'flightstats/rule'
   require 'flightstats/schedule'
   require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
- 
+
   require 'flightstats/weather'
   require 'flightstats/metar'
   require 'flightstats/taf'
