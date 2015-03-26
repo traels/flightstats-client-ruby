@@ -54,10 +54,11 @@ describe FlightStats::Alert do
     before do
       stub_api_request(:get, described_class.base_path, 'create_alert')
     end
+    let(:params) { { deliverTo: deliver_to, type: "JSON" } }
 
     describe "flight_rule_by_arrival" do
       let(:alert) do
-        described_class.flight_rule_by_arrival(carrier, flight_number, arrival_airport, year, month, day, deliver_to)
+        described_class.flight_rule_by_arrival(carrier, flight_number, arrival_airport, year, month, day, params)
       end
 
       it_behaves_like "alert details are returned"
@@ -66,7 +67,7 @@ describe FlightStats::Alert do
 
     describe "flight_rule_by_departure" do
       let(:alert) do
-        described_class.flight_rule_by_departure(carrier, flight_number, departure_airport, year, month, day, deliver_to)
+        described_class.flight_rule_by_departure(carrier, flight_number, departure_airport, year, month, day, params)
       end
 
       it_behaves_like "alert details are returned"
@@ -75,7 +76,7 @@ describe FlightStats::Alert do
 
     describe "flight_rule_for_route_with_arrival_date" do
       let(:alert) do
-        described_class.flight_rule_for_route_with_arrival_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, deliver_to)
+        described_class.flight_rule_for_route_with_arrival_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, params)
       end
 
       it_behaves_like "alert details are returned"
@@ -84,7 +85,7 @@ describe FlightStats::Alert do
 
     describe "flight_rule_for_route_with_departure_date" do
       let(:alert) do
-        described_class.flight_rule_for_route_with_departure_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, deliver_to)
+        described_class.flight_rule_for_route_with_departure_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, params)
       end
 
       it_behaves_like "alert details are returned"

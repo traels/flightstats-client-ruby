@@ -7,19 +7,19 @@ module FlightStats
 
     class << self
 
-      def flight_rule_by_arrival(carrier, flight_number, arrival_airport, year, month, day, deliver_to, type = "JSON", params = {}, options = {})
+      def flight_rule_by_arrival(carrier, flight_number, arrival_airport, year, month, day, params = {}, options = {})
         from_response API.get("#{base_path}/create/#{carrier}/#{flight_number}/to/#{arrival_airport}/arriving/#{year}/#{month}/#{day}", params, options), "alerts"
       end
 
-      def flight_rule_by_departure(carrier, flight_number, departure_airport, year, month, day, deliver_to, type = "JSON", params = {}, options = {})
+      def flight_rule_by_departure(carrier, flight_number, departure_airport, year, month, day, params = {}, options = {})
         from_response API.get("#{base_path}/create/#{carrier}/#{flight_number}/from/#{departure_airport}/departing/#{year}/#{month}/#{day}", params, options), "alerts"
       end
 
-      def flight_rule_for_route_with_arrival_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, deliver_to, type = "JSON", params = {}, options = {})
+      def flight_rule_for_route_with_arrival_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, params = {}, options = {})
         from_response API.get("#{base_path}/create/#{carrier}/#{flight_number}/from/#{departure_airport}/to/#{arrival_airport}/arriving/#{year}/#{month}/#{day}", params, options), "alerts"
       end
 
-      def flight_rule_for_route_with_departure_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, deliver_to, type = "JSON", params = {}, options = {})
+      def flight_rule_for_route_with_departure_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, params = {}, options = {})
         from_response API.get("#{base_path}/create/#{carrier}/#{flight_number}/from/#{departure_airport}/to/#{arrival_airport}/departing/#{year}/#{month}/#{day}", params, options), "alerts"
       end
 
