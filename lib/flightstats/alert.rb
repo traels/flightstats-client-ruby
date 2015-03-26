@@ -1,6 +1,7 @@
 module FlightStats
   class Alert < Resource
     attr_accessor :rule,
+                  :flight_status,
                   :alert_capabilities
 
     @@base_path = "/flex/alerts/rest/v1/json"
@@ -35,8 +36,8 @@ module FlightStats
         from_response API.get("#{base_path}/list", params, options)
       end
 
-      def test_alert_services(carrier, flight_number, departure_airport, arrival_airport, deliver_to, params = {}, options = {})
-        from_response API.get("#{base_path}/testdelivery/#{carrier}/#{flight_number}/from/#{departure_airport}/to/#{arrival_airport}", params, options)
+      def test_alert_services(carrier, flight_number, departure_airport, arrival_airport, params = {}, options = {})
+        from_response API.get("#{base_path}/testdelivery/#{carrier}/#{flight_number}/from/#{departure_airport}/to/#{arrival_airport}", params, options), "alerts"
       end
 
       def base_path
