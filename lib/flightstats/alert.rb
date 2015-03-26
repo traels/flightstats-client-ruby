@@ -2,6 +2,9 @@ module FlightStats
   class Alert < Resource
     attr_accessor :rule,
                   :flight_status,
+                  :event,
+                  :data_source,
+                  :date_time_recorded,
                   :alert_capabilities
 
     @@base_path = "/flex/alerts/rest/v1/json"
