@@ -22,6 +22,6 @@ def stub_api_request method, path , fixture = nil
 end
 
 def data_from_response fixture
-    response = File.read(File.expand_path("../fixtures/#{fixture}.json", __FILE__))
-    JSON.parse(response, symbolize_names: true)
+  response = File.read(File.expand_path("../fixtures/#{fixture}.json", __FILE__))
+  JSON.parse(response, symbolize_names: true)
 end
