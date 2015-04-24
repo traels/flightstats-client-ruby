@@ -8,7 +8,7 @@ Ruby client for the FlightStats Flex API.
 In your Gemfile:
 
 ```ruby
-gem "flightstats-flex", "~> 0.3.0"
+gem "flightstats-flex", "~> 0.5.3"
 ```
 
 or
@@ -276,11 +276,10 @@ params = { deliverTo: "http://your.post.url", type: "JSON" }
 FlightStats::Alert.flight_rule_by_arrival("AA", "100", "JFK", "2015", "06", 10, params)
 ```
 
-#### List your account's Alert Rule IDs that are less than the specified max Rule 
+#### List your account's Alert Rule IDs that are less than the specified max Rule ID.
 ```ruby
 FlightStats::Alert.list_alert_rule_ids
 ```
-ID.
 
 #### Test your alert services with a simulated alert
 ```ruby
