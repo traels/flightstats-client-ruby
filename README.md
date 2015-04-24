@@ -228,6 +228,66 @@ flights = FlightStats::Flight.direct_and_connecting_arriving 'SFO', 'FRA', 2013,
 flights = FlightStats::Flight.direct_and_connecting_departing 'SFO', 'FRA', 2013, 5, 1
 ```
 
+### Alerts
+
+#### Create flight rule by arrival
+```ruby
+# FlightStats::Alert.flight_rule_by_arrival(carrier, flight_number, arrival_airport, year, month, day, params)
+params = { deliverTo: "http://your.post.url", type: "JSON" }
+FlightStats::Alert.flight_rule_by_arrival("AA", "100", "JFK", "2015", "06", 10, params)
+```
+
+#### Create flight rule by departure
+```ruby
+# FlightStats::Alert..flight_rule_by_departure(carrier, flight_number, departure_airport, year, month, day, params)
+params = { deliverTo: "http://your.post.url", type: "JSON" }
+FlightStats::Alert.flight_rule_by_departure("AA", "100", "JFK", "2015", "06", 10, params)
+```
+
+#### Create flight rule for route with arrival date
+```ruby
+# FlightStats::Alert.flight_rule_for_route_with_arrival_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, params)
+params = { deliverTo: "http://your.post.url", type: "JSON" }
+FlightStats::Alert.flight_rule_for_route_with_arrival_date("AA", "100", "JFK", "LHR", "2015", "06", 10, params)
+```
+
+#### Create flight rule for route with departure date
+```ruby
+# FlightStats::Alert.flight_rule_for_route_with_departure_date(carrier, flight_number, departure_airport, arrival_airport, year, month, day, params)
+params = { deliverTo: "http://your.post.url", type: "JSON" }
+FlightStats::Alert.flight_rule_for_route_with_departure_date("AA", "100", "JFK", "LHR", "2015", "06", 10, params)
+```
+
+#### Delete a previously registered rule by ID
+```ruby
+# FlightStats::Alert.flight_rule_by_arrival(rule_id)
+FlightStats::Alert.flight_rule_by_arrival(1238123)
+```
+
+#### Retrieve a previously registered rule by ID
+```ruby
+# FlightStats::Alert.retrieve_registered_rule_by_id(rule_id)
+FlightStats::Alert.retrieve_registered_rule_by_id(1235912)
+```
+
+#### List your account's Alert Rule IDs
+```ruby
+params = { deliverTo: "http://your.post.url", type: "JSON" }
+FlightStats::Alert.flight_rule_by_arrival("AA", "100", "JFK", "2015", "06", 10, params)
+```
+
+#### List your account's Alert Rule IDs that are less than the specified max Rule 
+```ruby
+FlightStats::Alert.list_alert_rule_ids
+```
+ID.
+
+#### Test your alert services with a simulated alert
+```ruby
+# FlightStats::Alert.test_alert_services(carrier, flight_number, departure_airport, arrival_airport, params)
+params = { deliverTo: "http://your.post.url", type: "JSON" }
+FlightStats::Alert.test_alert_services("AA", "100", "JFK", "LHR", params)
+```
 
 ## Contributing
 
