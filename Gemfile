@@ -7,4 +7,5 @@ group :development do
   gem 'guard-rspec', require: false
   gem 'ruby_gntp'
   gem 'growl'
+  gem 'byebug'
 end

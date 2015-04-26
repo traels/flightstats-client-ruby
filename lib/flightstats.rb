@@ -34,6 +34,25 @@ module FlightStats
     end
     attr_writer :app_key
 
+
+    def alert_deliveries
+      defined? @alert_deliveries and @alert_deliveries or raise(
+        ConfigurationError, "FlightStats.alert_deliveries not configured"
+      )
+    end
+    attr_writer :alert_deliveries
+
+
+    def alert_type
+      allowed_formats = %w(JSON XML)
+      return 'JSON' if @alert_type.nil?
+      raise(
+        ConfigurationError, "FlightStats.alert_type is not valid, allowed: 'JSON', 'XML'"
+      ) unless allowed_formats.include?(@alert_type)
+      @alert_type
+    end
+    attr_writer :alert_type
+
     # Assigns a logger to log requests/responses and more.
     #
     # @return [Logger, nil]
@@ -105,7 +124,7 @@ module FlightStats
   require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
- 
+
   require 'flightstats/weather'
   require 'flightstats/metar'
   require 'flightstats/taf'
@@ -126,6 +145,7 @@ module FlightStats
 
 
   require 'flightstats/rating'
+  require 'flightstats/alert'
 
   require 'flightstats/fids_data'
 
