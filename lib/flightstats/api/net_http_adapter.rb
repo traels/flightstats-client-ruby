@@ -65,6 +65,7 @@ module FlightStats
             request['Accept-Language'] = options[:locale]
           end
           http = ::Net::HTTP.new uri.host, uri.port
+          http.set_debug_output($stdout) if FlightStats.http_log
           http.use_ssl = uri.scheme == 'https'
           net_http.each_pair { |key, value| http.send "#{key}=", value }
 

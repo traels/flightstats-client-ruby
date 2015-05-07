@@ -25,6 +25,13 @@ module FlightStats
     end
     attr_writer :app_id
 
+    # @return [Boolean].
+    # @raise [ConfigurationError] If not configured.
+    def http_log
+      defined? @http_log and @http_log
+    end
+    attr_writer :http_log
+
     # @return [String] An APP key.
     # @raise [ConfigurationError] If not configured.
     def app_key
