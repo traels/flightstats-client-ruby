@@ -124,6 +124,8 @@ module FlightStats
   require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
   require 'flightstats/scheduled_gate_departure'
+  require 'flightstats/actual_gate_arrival'
+  require 'flightstats/actual_runway_arrival'
 
   require 'flightstats/weather'
   require 'flightstats/metar'
