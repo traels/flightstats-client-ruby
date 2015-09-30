@@ -13,7 +13,8 @@ module FlightStats
                   :codeshares,
                   :flight_durations,
                   :airport_resources,
-                  :flight_equipment
+                  :flight_equipment,
+                  :delays
 
     @@base_path = "/flex/flightstatus/rest/v2/json"
 

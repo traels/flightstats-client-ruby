@@ -91,6 +91,7 @@ module FlightStats
   require 'flightstats/api/net_http_adapter'
 
   require 'flightstats/resource'
+  require 'flightstats/delays'
 
   require 'flightstats/abstract_date'
   require 'flightstats/actual_gate_departure'
