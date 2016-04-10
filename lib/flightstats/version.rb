@@ -2,7 +2,7 @@ module FlightStats
   module Version
     MAJOR   = 0
     MINOR   = 6
-    PATCH   = 4 
+    PATCH   = 5 
     PRE     = nil
 
     VERSION = [MAJOR, MINOR, PATCH, PRE].compact.join('.').freeze
