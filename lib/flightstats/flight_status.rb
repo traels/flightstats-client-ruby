@@ -21,7 +21,9 @@ module FlightStats
                   :operating_carrier_fs_code,
                   :primary_carrier_fs_code,
                   :operating_carrier,
-                  :primary_carrier
+                  :primary_carrier,
+                  :irregular_operations,
+                  :flight_status_updates
 
 
     @@base_path = "/flex/flightstatus/rest/v2/json"

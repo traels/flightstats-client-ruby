@@ -120,6 +120,8 @@ module FlightStats
   require 'flightstats/flight_plan_planned_arrival'
   require 'flightstats/flight_plan_planned_departure'
   require 'flightstats/flight_status'
+  require 'flightstats/flight_status_update'
+  require 'flightstats/irregular_operation'
   require 'flightstats/operating_carrier'
   require 'flightstats/operational_times'
   require 'flightstats/operator'
@@ -134,6 +136,9 @@ module FlightStats
   require 'flightstats/actual_runway_arrival'
   require 'flightstats/downline'
   require 'flightstats/upline'
+  require 'flightstats/updated_at'
+  require 'flightstats/updated_date_field'
+  require 'flightstats/updated_text_field'
 
   require 'flightstats/weather'
   require 'flightstats/metar'
