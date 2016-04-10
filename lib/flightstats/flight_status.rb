@@ -14,7 +14,15 @@ module FlightStats
                   :flight_durations,
                   :airport_resources,
                   :flight_equipment,
-                  :delays
+                  :delays,
+                  :carrier,
+                  :departure_airport,
+                  :arrival_airport,
+                  :operating_carrier_fs_code,
+                  :primary_carrier_fs_code,
+                  :operating_carrier,
+                  :primary_carrier
+
 
     @@base_path = "/flex/flightstatus/rest/v2/json"
 
