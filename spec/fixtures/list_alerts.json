@@ -1,0 +1,10 @@
+{
+ "request": {
+  "lessThan": {},
+  "extendedOptions": {},
+  "url": "https://api.flightstats.com/flex/alerts/rest/v1/json/list"
+ },
+ "ruleIds": [
+  256327870
+ ]
+}

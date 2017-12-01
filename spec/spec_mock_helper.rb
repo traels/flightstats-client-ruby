@@ -2,7 +2,7 @@ require 'webmock/rspec'
 
 include WebMock::API
 
-def stub_api_request method, path , fixture = nil
+def stub_api_request method, path, fixture = nil
   uri = FlightStats::API.base_uri.to_s + path
   response = if block_given?
     yield

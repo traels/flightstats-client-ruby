@@ -25,6 +25,13 @@ module FlightStats
     end
     attr_writer :app_id
 
+    # @return [Boolean].
+    # @raise [ConfigurationError] If not configured.
+    def http_log
+      defined? @http_log and @http_log
+    end
+    attr_writer :http_log
+
     # @return [String] An APP key.
     # @raise [ConfigurationError] If not configured.
     def app_key
@@ -98,6 +105,7 @@ module FlightStats
   require 'flightstats/airline'
   require 'flightstats/airport'
   require 'flightstats/airport_resources'
+  require 'flightstats/alert'
   require 'flightstats/appendix'
   require 'flightstats/arrival_airport'
   require 'flightstats/arrival_date'
@@ -128,6 +136,7 @@ module FlightStats
   require 'flightstats/primary_carrier'
   require 'flightstats/published_arrival'
   require 'flightstats/published_departure'
+  require 'flightstats/rule'
   require 'flightstats/schedule'
   require 'flightstats/scheduled_flight'
   require 'flightstats/scheduled_gate_arrival'
