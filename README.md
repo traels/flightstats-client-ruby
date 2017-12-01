@@ -57,6 +57,25 @@ FlightStats::Airport.actives({ :params => { :extendedOptions => 'useHTTPErrors+l
 
 ## Supported APIs
 
+### Airlines
+
+#### Active airlines
+
+```ruby
+airlines = FlightStats::Airline.actives
+```
+#### All airlines
+
+```ruby
+airlines = FlightStats::Airline.all
+```
+
+#### Airlines by IATA code
+
+```ruby
+airlines = FlightStats::Airline.by_iata_code 'AA'
+```
+
 ### Airports
 
 #### Active airports
